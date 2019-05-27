@@ -14,7 +14,7 @@ class Place(object):
         self.entrance = None  # A Place
         # Phase 1: Add an entrance to the exit
         # BEGIN Problem 2
-        if exit:
+        if exit is not None:
             exit.entrance = self
         # END Problem 2
 
